@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu", sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #232020;
+    color: #FFFFFF;
+}
+
+
+h1 {
+    background-color: #f16234;
+}
+
+img {
+    width: 200px;
+    display: flex;
+    padding: 15px;
+}
+
+.socialmedia{
+    display: flex;
+    justify-content: left;
+    margin: 20px 0;
+  }
+
+.socialmedia a{
+    color: #CAF0F8;
+    width: 56px;
+    font-size: 22px;
+    transition: .3s linear;
+  }
+
+  .socialmedia a:hover{
+    color: #f16234;
+  }
