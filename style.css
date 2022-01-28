@@ -4,6 +4,25 @@
     font-family: "Ubuntu", sans-serif;
     box-sizing: border-box;
     text-decoration: none;
+    list-style: none;
+   
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #f16234;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 
 body {
@@ -11,37 +30,95 @@ body {
     color: #FFFFFF;
 }
 
-h1 {
-    background-color: #f16234;
+.bio {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
 }
 
 img {
     width: 200px;
-    display: flex;
-    padding: 15px;
-}
-
-.bio {
-    margin: 30px 0;
-}
-
-.bio-name {
-    font-size: 30px;
-}
-
-.bio-frase {
-    font-size: 60px;
-}
-
-.bio-resume {
-    font-size: 15px;
-    font-style: italic;
-}
-
-.skills {
-    margin: 20px 0;
+    background: url(fococlipping-20220127-19545.png);
+    border: 2px solid #F16234;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin-right: 10%;
     
 }
+
+.name {
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.frase {
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.quemsou {
+    font-size: 1.75rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+  }
+
+.card {
+    background: #403B3B;
+    box-shadow: -8px 8px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 20%;
+    margin-bottom: 50px;
+}
+
+.card-header {
+    text-align: center;
+    padding: 50px 10px;
+    font-size: 25px;
+}
+
+.card-body {
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 18px;
+        
+}
+
+.card-body a{
+    color: #d35100;
+}
+
+.card-body a:hover{
+    color: #f07900;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+/*
 
 .about a {
     color: #d35100;
@@ -65,3 +142,5 @@ img {
   .socialmedia a:hover{
     color: #f16234;
   }
+
+  */
