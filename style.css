@@ -43,22 +43,20 @@ img {
     
 }
 
-.texto a {
+.about a {
     color: #d35100;
 }
 
-.texto a:hover{
+.about a:hover{
     color: #f07900;
 }
 
 .socialmedia{
-    display: flex;
-    justify-content: left;
     margin: 20px 0;
   }
 
 .socialmedia a{
-    color: #CAF0F8;
+    color: #FFFFFF;
     width: 56px;
     font-size: 22px;
     transition: .3s linear;
